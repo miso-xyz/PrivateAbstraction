@@ -4,7 +4,12 @@ Cleaner for Tangible Software's Obfuscator
 # Cleans
 <pre>
 - Junk Methods
-- Renaming (Not Done)
+- Renaming
+  |- Event Methods Renamed
+  |- Fields Renamed
+  |- Properties Renamed (Not Done)
+  |- Types Renamed (Not Done)
+  |- Enums Renamed (Not Done)
 </pre>
 
 # Screenshots
