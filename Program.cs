@@ -78,7 +78,7 @@ namespace PrivateAbstraction
             try { asm = ModuleDefMD.Load(args[0]); }
             catch { Console.ForegroundColor = ConsoleColor.Red; Console.WriteLine("Invalid assmebly, please make sure it is a valid .NET application"); goto end; }
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(" Cleaning '" + args[0] + "'...");
+            Console.WriteLine(" Cleaning '" + Path.GetFileName(args[0]) + "'...");
             renameObjects();
             ModuleWriterOptions moduleWriterOptions = new ModuleWriterOptions(asm);
             moduleWriterOptions.MetadataOptions.Flags |= MetadataFlags.PreserveAll;
