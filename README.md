@@ -1,7 +1,7 @@
 # PrivateAbstraction
 Cleaner for Tangible Software's Obfuscator
 
-# Cleans
+# Supported Protections
 <pre>
 - Junk Methods
 - Renaming
